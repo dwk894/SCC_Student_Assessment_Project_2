@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang = 'en'>
+    <head>
+        <meta charset = 'utf-8'>
+        <meta name = 'author' content = 'Dayu Wang'>
+        <title>Project 2 - SCC Pathways</title>
+        <link rel = 'stylesheet' type = 'text/css' href = 'css/predefined.css'>
+        <link rel = 'stylesheet' type = 'text/css' href = 'css/style.css'>
+    </head>
+    <body>
+        <div id = 'mainFrame'>
+            <!-- Page headers -->
+            <p class = 'centered noMargin'>St. Charles Community College</p>
+            <p class = 'centered' id = 'projectTitle'>Project 2 - Study of Pathways</p>
+            <p class = 'centered noMargin' style = 'margin-bottom: 36pt;'>Please contact <strong>Dayu Wang</strong> (<a class = 'noUnderline' href = 'mailto:dwang@stchas.edu'>dwang@stchas.edu</a>) for technical issues.</p>
+            <div id = 'inputBlock'> <!-- Get input file. -->
+                <p class = 'noMargin' style = 'margin-bottom: 6pt;'>Please choose an MS Excel file.</p>
+                <input id = 'fileUpload' type = 'file'>
+                <p class = 'noMargin' style = 'margin: 12pt 0pt 6pt 0pt;'>Please click the button below to start processing data.</p>
+                <input id = 'processData' type = 'button' value = 'Process Data'>
+            </div>
+            <div id = 'chart' style = 'margin: 22pt 0pt 22pt 0pt;'></div>
+            <div id = 'output'></div>
+        </div>
+        <script crossorigin = 'anonymous' integrity = 'sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=' src = 'http://code.jquery.com/jquery-3.3.1.slim.min.js'></script>
+        <script src = 'https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.14.1/xlsx.core.min.js' type = 'text/javascript'></script>
+        <script src = 'https://www.gstatic.com/charts/loader.js' type = 'text/javascript'></script>
+        <script src = 'js/course.js' type = 'text/javascript'></script>
+        <script src = 'js/data_processing.js' type = 'text/javascript'></script>
+        <script src = 'js/app.js' type = 'text/javascript'></script>
+    </body>
+</html>

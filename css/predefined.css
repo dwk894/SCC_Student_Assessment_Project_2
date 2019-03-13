@@ -1,0 +1,13 @@
+/** Predefined CSS styles */
+
+.centered {
+    text-align: center;
+}
+
+.noMargin {
+    margin: 0px;
+}
+
+.noUnderline {
+    text-decoration: none;
+}

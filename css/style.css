@@ -1,0 +1,21 @@
+body {
+    background-color: azure;
+}
+
+#mainFrame {
+    color: #7f1428;
+    display: block;
+    font-family: Tahoma;
+    font-size: 12pt;
+    margin: auto;
+    margin-top: 12pt;
+    margin-bottom: 12pt;
+    width: 1024px;
+}
+
+#projectTitle {
+    font-size: 15pt;
+    font-weight: bold;
+    margin-top: 24pt;
+    margin-bottom: 24pt;
+}
